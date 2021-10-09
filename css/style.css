@@ -269,3 +269,40 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+.gallery {
+    padding: 50px 0 105px;
+    background: #886239;
+    color: #fff;
+}
+
+.gallery__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 160px;
+}
+
+.gallery__link {
+    text-decoration: underline;
+}
+
+.gallery__item_inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+
+.slick_btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -85px;
+    right: 0;
+}
+
+.slick_prev {
+    right: 60px;
+}
