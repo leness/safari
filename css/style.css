@@ -439,10 +439,9 @@ a {
 .booking__checkbox:checked+.booking__checkbox_style::before {
     content: '';
     position: absolute;
-    width: 180px;
-    height: 180px;
-    /* background-color: #C4C4C4; */
-    background-color: red;
+    width: 16px;
+    height: 16px;
+    background-color: #C4C4C4;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
